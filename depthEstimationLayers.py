@@ -51,7 +51,7 @@ class DecodeLayer(layers.Layer):
         x = self.relu1(x) 
 
         x = self.conv2(x)
-        x = self.bnorm(x)
+        x = self.bnorm2(x)
         x = self.relu2(x)
 
         return x 
